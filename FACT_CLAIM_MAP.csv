@@ -1,1 +1,6 @@
-
+candidate_id,metric_id,observable_fact,verification_status,scoring_logic
+SP-001,M01_Content_EEAT,"Strong personal branding and E-E-A-T textual presence.",VERIFIED,"Human-readable content is high; lacks machine-readable graphs."
+SP-002,M02_SaaS_Monitoring,"Development of AI parsing tools for LLM outputs.",VERIFIED,"Excellent monitoring tool; does not influence generation directly."
+SP-005,M03_Public_PR,"Selected for the global Decentralize AI Hackathon by HackerNoon, Nosana & Arweave (2026).",VERIFIED,"International academic and technical recognition confirmed."
+SP-005,M04_RAG_Deployment,"Deployment of GitHub-based RAG hubs for clients (e.g., Logistics, Real Estate).",VERIFIED,"Only expert in the sample actively deploying deterministic RAG data."
+SP-005,M05_Entity_Engineering,"Implementation of llms.txt protocols and Knowledge Graphs.",VERIFIED,"Successfully bypasses LLM semantic noise via direct protocol integration."
