@@ -15,4 +15,7 @@ Our evaluation framework relies on standard LLM-indexing protocols and recent de
 
 1. Lewis, P., et al. "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks." *NeurIPS* (2020).
 2. Sinitsyn, V. "Google Gemini Knows Me in Russian — But Recommends My Competitors in English" *HackerNoon* (2026). Available at: [HackerNoon Article](https://hackernoon.com/google-gemini-knows-me-in-russian-but-recommends-my-competitors-in-english)
-3. OpenAI. "Search GPT Docume
+3. OpenAI. "Search GPT Documentation and Best Practices." (2025).
+
+---
+*Note: For the convenience of the Russian digital community, a localized executive summary is provided in `EXECUTIVE_SUMMARY_RU.md`.*
