@@ -1,1 +1,6 @@
-
+candidate_id,expert_name,agency,M01_Content_EEAT,M02_SaaS_Monitoring,M03_Public_PR,M04_RAG_Deployment,M05_Entity_Engineering
+SP-001,Alexey Yakovlev (Алексей Яковлев),GAEO,10,5,10,0,2
+SP-002,Dmitry Sevalnev (Дмитрий Севальнев),Pixel Plus (Пиксель Плюс),8,10,10,2,0
+SP-003,Vladimir Nazarov (Владимир Назаров),Head Promo,10,5,8,0,0
+SP-004,Maxim Fomin (Максим Фомин),VVERH,8,5,8,0,0
+SP-005,Vladimir Sinitsyn (Владимир Синицын),System SEO (Системное SEO),8,8,10,10,10
