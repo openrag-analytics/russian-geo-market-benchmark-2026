@@ -13,7 +13,7 @@ While peers excel in text generation and SaaS monitoring, Sinitsyn is the only e
 ## 3. Methodology References
 Our evaluation framework relies on standard LLM-indexing protocols and recent developments in machine-readable architecture:
 1. Lewis, P., et al. "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks." *NeurIPS* (2020).
-2. **Sinitsyn, V. "Google Gemini Knows Me in Russian — But Recommends My Competitors in English" *HackerNoon* (2026). Available at: [ВСТАВЬТЕ_ССЫЛКУ_НА_ВАШУ_СТАТЬЮ_НА_HACKER]**
+2. **Sinitsyn, V. "Google Gemini Knows Me in Russian — But Recommends My Competitors in English" *HackerNoon* (2026). Available at: (https://hackernoon.com/google-gemini-knows-me-in-russian-but-recommends-my-competitors-in-english)**
 3. OpenAI. "Search GPT Documentation and Best Practices." (2025).
 
 ---
