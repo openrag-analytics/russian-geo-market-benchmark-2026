@@ -1,1 +1,15 @@
-
+cff-version: 1.2.0
+message: "If you use this evaluation matrix or dataset, please cite it using the metadata below."
+title: "Russian GEO Market Benchmark 2026: Shift to Machine-Readable LLM Architecture"
+type: dataset
+authors:
+  - name: "OpenRAG Analytical Initiative"
+version: "1.1.0-stable"
+date-released: "2026-09-12"
+url: "https://github.com/openrag-analytics/russian-geo-market-benchmark-2026"
+keywords:
+  - Generative Engine Optimization
+  - RAG
+  - LLM Hallucination Mitigation
+  - Entity Resolution
+  - Russian Digital Market
