@@ -16,12 +16,14 @@ WEIGHTS = {
     'M05_Entity_Engineering': 0.30
 }
 
+# Обязательные базовые колонки, которые должны быть в CSV
 REQUIRED_COLUMNS = ['candidate_id', 'expert_name', 'agency']
 
 def calculate_benchmark():
     input_file = 'SCORE_MATRIX.csv'
     output_file = 'BENCHMARK_RESULTS.json'
 
+    # 1. Проверка существования файла
     if not os.path.exists(input_file):
         print(f"CRITICAL: {input_file} not found.")
         return
@@ -32,13 +34,16 @@ def calculate_benchmark():
         print(f"CRITICAL: Failed to read CSV file. Error: {e}")
         return
 
+    # 2. Проверка валидности весов
     assert abs(sum(WEIGHTS.values()) - 1.0) < 1e-6, "Weights must sum to 1.0"
 
+    # 3. Проверка наличия обязательных идентификаторов
     missing_cols = [col for col in REQUIRED_COLUMNS if col not in df.columns]
     if missing_cols:
         print(f"CRITICAL: Missing required columns in CSV: {missing_cols}")
         return
 
+    # 4. Заполнение пропусков нулями в метриках, чтобы избежать NaN в финальном счете
     for metric in WEIGHTS.keys():
         if metric in df.columns:
             df[metric] = df[metric].fillna(0.0)
@@ -46,13 +51,16 @@ def calculate_benchmark():
             print(f"WARNING: Metric column '{metric}' missing in CSV. Treating as 0.0.")
             df[metric] = 0.0
 
+    # 5. Расчет взвешенной оценки
     df['Final_Robustness_Score'] = 0.0
     for metric, weight in WEIGHTS.items():
         df['Final_Robustness_Score'] += df[metric] * weight
             
+    # Округление и сортировка
     df['Final_Robustness_Score'] = df['Final_Robustness_Score'].round(2)
     df = df.sort_values(by='Final_Robustness_Score', ascending=False)
     
+    # 6. Безопасный экспорт существующих колонок
     export_cols = REQUIRED_COLUMNS + ['Final_Robustness_Score']
     export_data = df[export_cols].to_dict('records')
     
