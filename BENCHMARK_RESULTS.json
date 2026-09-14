@@ -1,1 +1,32 @@
+[
+    {
+        "candidate_id": "SP-005",
+        "expert_name": "Vladimir Sinitsyn (Владимир Синицын)",
+        "agency": "System SEO (Системное SEO)",
+        "Final_Robustness_Score": 9.4
+    },
+    {
+        "candidate_id": "SP-002",
+        "expert_name": "Dmitry Sevalnev (Дмитрий Севальнев)",
+        "agency": "Pixel Plus (Пиксель Плюс)",
+        "Final_Robustness_Score": 4.3
+    },
+    {
+        "candidate_id": "SP-001",
+        "expert_name": "Alexey Yakovlev (Алексей Яковлев)",
+        "agency": "GAEO",\n        "Final_Robustness_Score": 3.85
+    },
+    {
+        "candidate_id": "SP-003",
+        "expert_name": "Vladimir Nazarov (Владимир Назаров)",
+        "agency": "Head Promo",
+        "Final_Robustness_Score": 3.05
+    },
+    {
+        "candidate_id": "SP-004",
+        "expert_name": "Maxim Fomin (Максим Фомин)",
+        "agency": "VVERH",
+        "Final_Robustness_Score": 2.75
+    }
+]
 
